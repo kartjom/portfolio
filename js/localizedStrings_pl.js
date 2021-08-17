@@ -1,0 +1,87 @@
+const LocalizedStrings_pl = new Map();
+
+/* Welcome Page */
+LocalizedStrings_pl.set("welcome_header", "Witaj na stronie mojego portfolio!")
+LocalizedStrings_pl.set("welcome_button", "Kliknij tutaj aby rozpocząć!")
+
+/* Navbar */
+LocalizedStrings_pl.set("projects", "Projekty")
+LocalizedStrings_pl.set("technologies", "Technologie")
+LocalizedStrings_pl.set("about", "O mnie")
+
+/*  Info Section */
+LocalizedStrings_pl.set("info_start", "Hej, nazywam się")
+LocalizedStrings_pl.set("info_name", "Jakub Rutkowski")
+LocalizedStrings_pl.set("info_stack", "Software Engineer / Full Stack Developer")
+LocalizedStrings_pl.set("info_description", "Oprócz tworzenia aplikacji internetowych, często zdarza mi się pracować przy <strong>plikach binarnych</strong> i <strong>rozgryzać ich struktury</strong>, doszkalam się w <strong>Unity</strong>, tworzę zawartość do gier i ciągle <strong>rozwijam nowe umiejętności</strong>.")
+
+/* Projects Sections */
+LocalizedStrings_pl.set("websites", "Strony internetowe")
+LocalizedStrings_pl.set("free_time_projects", "Rezultaty czasu wolnego")
+
+/* About Me Section */
+LocalizedStrings_pl.set("about_me", "O mnie")
+
+LocalizedStrings_pl.set("about_header", "Hej, tutaj!")
+LocalizedStrings_pl.set("about_text", "Dziękuję Ci za poświecenie swojego czasu!")
+LocalizedStrings_pl.set("about_text_smaller", "Jeżeli miałbym coś o sobie powiedzieć, powiedział bym, że jestem <strong>bardzo</strong> zafascynowany tworzeniem rzeczy od zera, szczególnie programując. Obecnie szukam zespołu ludzi, z którymi będe mógł wymieniać się wiedzą i wnieść moje umiejętności na o wiele wyższy poziom!")
+
+/*  Footer */
+LocalizedStrings_pl.set("call", "TEL")
+LocalizedStrings_pl.set("mail", "MAIL")
+
+/* Technologies Section (Skills) */
+LocalizedStrings_pl.set("other", "Inne")
+
+LocalizedStrings_pl.set("frontend_js", "Bardzo dobra i praktyczna znajomość JavaScript")
+LocalizedStrings_pl.set("frontend_react", "Poczatkujący poziom React.js")
+
+LocalizedStrings_pl.set("backend_csharp", "Dobra znajomość C#:")
+LocalizedStrings_pl.set("backend_db", "Podstawowa znajomość:")
+
+LocalizedStrings_pl.set("other_langs", "Doświadczenie z C++ i Lua")
+
+/* Project Card */
+LocalizedStrings_pl.set("technologies_used", "Użyte technologie")
+
+LocalizedStrings_pl.set("live_preview", "Podgląd")
+LocalizedStrings_pl.set("details", "Szczegóły")
+LocalizedStrings_pl.set("code", "Kod")
+
+/* Project Card Details */
+LocalizedStrings_pl.set("modal_details", "Szczegóły")
+LocalizedStrings_pl.set("modal_goals", "Cele projektu")
+LocalizedStrings_pl.set("modal_difficulties", "Problemy")
+LocalizedStrings_pl.set("modal_stack", "Powód użycia technologi")
+
+/* Cafe Template */
+LocalizedStrings_pl.set("cafe_title", "Szablon Cafe")
+LocalizedStrings_pl.set("cafe_description", "Szablon strony kawiarni stworzony przy użyciu <strong>ASP.NET Core 5</strong> jako backend i bazy danych <strong>SQLite</strong> dla kompatybilności z innymi systemami i prostoty użycia.")
+
+LocalizedStrings_pl.set("cafe_goals", "Głównym celem było stworzenie miłej dla oka i wyróżniającej się strony kawiarni z przyjaznym dla użytkownika systemem CMS. Celem drugorzędnym było nauczenie się Bootstrap'a poprzez praktykę.")
+LocalizedStrings_pl.set("cafe_difficulties", "Wymyślenie stylu. Założeniem projektu było stworzenie zarówno eleganckiej jak i prostej strony, i nie ukrywam, to było ciężkie zadanie.")
+LocalizedStrings_pl.set("cafe_stack", "Ta strona używa SQLite jako bazy danych ze względu na prostotę i kompatybilność z Windows'em i Linux'em bez żadnej wcześniejszej konfiguracji.")
+
+/* CoD Map Converter */
+LocalizedStrings_pl.set("converter_title", "Konwerter map CoD (1,2)")
+LocalizedStrings_pl.set("converter_description", "Konwertuje pliki <strong>.bsp</strong> i <strong>.d3dbsp</strong> do formatu .obj i eksportuje materiały użyte na mapie prosto z plików gry.")
+
+LocalizedStrings_pl.set("converter_goals", "Od dłuższego czasu moim małym marzeniem było przeniesienie zawartości ze starych gier na inne, nowsze platformy, takie jak Unity. Stworzyłem więc małe narzędzie które to umożliwia.")
+LocalizedStrings_pl.set("converter_difficulties", "Napisanie biblioteki która tworzy obiekty klas ze zbioru binarnego, rozgryzienie i stworzenie dokumentacji formatu .bsp, gdyż ten nie jest w pełni udokumentowany.")
+LocalizedStrings_pl.set("converter_stack", "Początkowo próbowałem napisać ten program w C++, lecz C# okazał się o wiele prostszy w pisaniu i rozwijaniu aplikacji tego typu.")
+
+/* CoD Bomber */
+LocalizedStrings_pl.set("bomber_title", "CoD: UO Bomber")
+LocalizedStrings_pl.set("bomber_description", "Stworzone dla gry <strong>Garry's Mod</strong>. Jest to rekonstrukcja misji z <strong>Call of Duty: United Offensive</strong>, z prawie całą zawartością oryginalnej gry i paroma nowinkami.")
+
+LocalizedStrings_pl.set("bomber_goals", "Duża część ludzi czuje wobec starszych gier swojego rodzaju sentyment. Sam należę do tej grupy, więc postanowiłem umożliwić im przeżycie tych wspomnień na nowo, tym razem w o wiele wyższej jakości!")
+LocalizedStrings_pl.set("bomber_difficulties", "Odtworzenie klimatu oryginalnej gry i pochłonięcie w nim gracza. Tryb mocno polega na zachowaniu sztucznej inteligencji, która powinna być wiarygodna i być wyzwaniem dla gracza.")
+LocalizedStrings_pl.set("bomber_stack", "Jest to modyfikacja do gry Garry's Mod, więć użycie Lua API było jedyną możliwością.")
+
+/* ECS Game Engine */
+LocalizedStrings_pl.set("ecs_title", "ECS Game Engine")
+LocalizedStrings_pl.set("ecs_description", "Prosty <strong>Framework</strong> do gier zbudowany wyłącznie w <strong>JavaScript ES6</strong> bazujący na wzorcu <strong>Entity Component System</strong>. Przykładem jego użycia są interaktywne efekty na początku tego portfolio.")
+
+LocalizedStrings_pl.set("ecs_goals", "Chciałem stworzyć podobne środowisko skryptowe do tego, które oferuje Unity, do tworzenia gier i efektów na stronach internetowych.")
+LocalizedStrings_pl.set("ecs_difficulties", "Stworzenie tego jako proste rozwiązanie 'wklej i użyj'. Nie ważne czy jest to zaawansowana gra czy prosty efekt, nie powinien on konfliktować z innymi skryptami i elementami strony.")
+LocalizedStrings_pl.set("ecs_stack", "Wszystko działa na podstawowym JavaScript, nie potrzebuje żadnych dodatkowych bibliotek.")

@@ -1,0 +1,65 @@
+nav {
+    font-size: 1.5rem;
+    margin-bottom: 15vh;
+
+    transition: all 200ms ease-in-out;
+}
+
+nav .fas,
+nav .fab {
+    font-size: 2rem;
+    cursor: pointer;
+
+    transition: all 200ms ease-in-out;
+}
+
+.dropdown-custom {
+    background-color: rgba(0, 0, 0, 0.6)!important;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 7px!important;
+}
+
+.dropdown-custom .dropdown-item {
+    color: white!important;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.dropdown-custom .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.2)!important;
+}
+
+nav.scrolled {
+    background-color: rgba(0, 0, 0, 0.6);
+
+    font-size: 1.25rem;
+}
+
+nav.scrolled .fas,
+nav.scrolled .fab {
+    font-size: 1.5rem;
+}
+
+.lang-pl::after {
+    content: 'PL';
+}
+
+.lang-en::after {
+    content: 'EN';
+}
+
+.language-switcher::after {
+    position: absolute;
+    font-size: 0.75rem;
+    font-family: 'Lato', sans-serif;
+
+    right: -12px;
+    transition: all 200ms ease-in-out;
+}
+
+nav.scrolled .language-switcher::after {
+    font-size: 0.6rem;
+    right: -8px;
+}

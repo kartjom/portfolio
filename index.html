@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Jakub Rutkowski - Portfolio"/>
+
+    <!-- Bootstrap 5.0.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- Font Awesome 5.15.3 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/project_card.css">
+    <link rel="stylesheet" href="css/welcome.css">
+
+    <script src="src/GameEngine.js" type="module"></script>
+
+    <title>Jakub Rutkowski - Portfolio</title>
+</head>
+<body style="overflow: hidden;">
+    <div id="welcome">
+        <div class="container header-container px-5 w-100 h-100 d-flex flex-column align-items-center justify-content-around">
+            <h3 class="welcome-header text-center header" data-localizer="welcome_header"></h3>
+            <button onclick="welcome(event)" class="welcome-btn p-3 text-white " data-localizer="welcome_button"></button>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#projects" data-localizer="projects"></a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#technologies" data-localizer="technologies"></a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#about" data-localizer="about"></a>
+              </li>
+
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="https://github.com/KartaB" target="_blank"><i class="fab fa-github"></i></a>
+                </li>
+                
+                <li class="nav-item px-2">
+                  <a class="nav-link dropdown">
+                    <i class="fas fa-globe language-switcher lang-pl" data-bs-toggle="dropdown" id="lang-switcher"></i>
+                    <ul class="dropdown-menu dropdown-custom">
+                      <li class="dropdown-item" onclick="SwitchLanguage('pl')">Polski</li>
+                      <li class="dropdown-item" onclick="SwitchLanguage('en')">English</li>
+                    </ul>
+                  </a>
+                </li>
+
+            </ul>
+
+          </div>
+        </div>
+    </nav>
+
+    <div class="container info-container d-flex flex-column">
+      <div class="info-start" data-localizer="info_start"></div>
+      <div class="info-name" data-localizer="info_name"></div>
+      <div class="info-stack" data-localizer="info_stack"></div>
+      <div class="info-description" data-localizer="info_description"></div>
+    </div>
+
+    <hr class="text-white w-75 mx-auto">
+    <h3 class="header mt-5 text-center" id="projects" data-localizer="projects"></h3>
+
+    <h3 class="header-small pt-5 text-center" id="webProjects" data-localizer="websites"></h3>
+    <!-- Web Projects (embedded with JavaScript) -->
+
+    <hr class="text-white w-75 mx-auto">
+    <h3 class="header-small pt-5 text-center" id="personalProjects" data-localizer="free_time_projects"></h3>
+    <!-- Personal Projects (embedded with JavaScript) -->
+
+    <hr class="text-white w-75 mx-auto">
+    <h3 class="header mt-5 text-white text-center" id="technologies" data-localizer="technologies"></h3>
+
+    <div class="container py-5 my-5">
+        <div class="row d-flex justify-content-around">
+            <div class="col-lg-4 mb-4">
+              <div class="w-100 h-100 technology-card py-4">
+                  <h3 class="skills-header mb-4 text-center">Front-End</h3>
+                  <hr class="text-white w-75 mx-auto">
+                  <ul class="mx-5">
+                      <li class="skills-description text-muted mb-3" data-localizer="frontend_js"></li>
+                      <li class="skills-description text-muted mb-3" data-localizer="frontend_react"></li>
+                      <li class="skills-description text-muted mb-3">Bootstrap</li>
+                      <li class="skills-description text-muted mb-3">Photoshop</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="w-100 h-100 technology-card py-4">
+                  <h3 class="skills-header mb-4 text-center">Back-End</h3>
+                  <hr class="text-white w-75 mx-auto">
+                  <ul class="mx-5">
+                      <li class="skills-description text-muted mb-3"><span data-localizer="backend_csharp"></span><br>- .NET Framework/Core<br>- ASP.NET</li>
+                      <li class="skills-description text-muted mb-3"><span data-localizer="backend_db"></span><br>- MySQL<br>- T-SQL<br>- SQLite</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="w-100 h-100 technology-card py-4">
+                  <h3 class="skills-header mb-4 text-center" data-localizer="other"></h3>
+                  <hr class="text-white w-75 mx-auto">
+                  <ul class="mx-5">
+                      <li class="skills-description text-muted mb-3" data-localizer="other_langs"></li>
+                      <li class="skills-description text-muted mb-3">Git (bash) & GitHub</li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="text-white mt-5 w-75 mx-auto">
+    <h3 class="header my-5 text-white text-center" id="about" data-localizer="about_me"></h3>
+
+    <div class="container d-flex flex-column">
+        <div class="about-header" data-localizer="about_header"></div>
+        <div class="about-text"><strong data-localizer="about_text">Thanks for visiting my portfolio!</strong></div>
+        <div class="about-text smaller" data-localizer="about_text_smaller"></div>
+    </div>
+
+    <hr class="text-white w-75 mx-auto" style="margin-top: 150px;">
+
+    <div class="container footer-container d-flex">
+      <div class="footer-section d-flex flex-column align-items-center align-items-sm-start flex-sm-row justify-content-around">
+        <div class="mb-5">
+          <div class="footer-category text-center"><i class="fas fa-phone"></i><span data-localizer="call"></span></div>
+          <div class="footer-text">662-327-830</div>
+        </div>
+        <div class="mb-3">
+          <div class="footer-category text-center"><i class="fas fa-envelope"></i><span data-localizer="mail"></span></div>
+          <a class="footer-text" href="mailto:jakubrutkowski3012@gmail.com">jakubrutkowski3012@gmail.com</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap 5.0.2 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+    <!-- Custom JavaScript --> 
+    <script src="js/welcome.js"></script>
+    <script src="js/projectCreator.js"></script>
+
+    <!-- Language Switch -->
+    <script src="js/languageManager.js"></script>
+    <script src="js/localizedStrings_pl.js"></script>
+    <script src="js/localizedStrings_en.js"></script>
+    <script src="js/localizationInitializer.js"></script>
+
+    <script>
+      document.addEventListener("scroll", () => {
+        const scrollOffset = window.scrollY;
+        const navbar = document.querySelector("nav");
+        const navbarHeight = navbar.scrollHeight;
+
+        if (scrollOffset > navbarHeight/2) {
+          navbar.classList.add("scrolled")
+        } else {
+          navbar.classList.remove("scrolled")
+        }
+      })
+    </script>
+</body>
+</html>
