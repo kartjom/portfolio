@@ -25,6 +25,8 @@ nav .fab {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     cursor: pointer;
+
+    user-select: none;
 }
 
 .dropdown-custom .dropdown-item:hover {
@@ -67,4 +69,5 @@ nav.scrolled .language-switcher::after {
 
 .nav-link {
     cursor: pointer;
+    user-select: none;
 }

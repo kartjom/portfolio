@@ -17,7 +17,7 @@ LocalizedStrings_en.set("info_description", "Besides from creating websites, I'm
 
 /* Projects Sections */
 LocalizedStrings_en.set("websites", "Websites")
-LocalizedStrings_en.set("free_time_projects", "Free Time Projects")
+LocalizedStrings_en.set("free_time_projects", "Other projects")
 
 /* About Me Section */
 LocalizedStrings_en.set("about_me", "About Me")
@@ -53,14 +53,16 @@ LocalizedStrings_en.set("modal_details", "Details")
 LocalizedStrings_en.set("modal_goals", "Project goals")
 LocalizedStrings_en.set("modal_difficulties", "Difficulties")
 LocalizedStrings_en.set("modal_stack", "Stack explained")
+LocalizedStrings_en.set("modal_learned", "What I've learned")
 
 /* Cafe Template */
 LocalizedStrings_en.set("cafe_title", "Cafe Template")
-LocalizedStrings_en.set("cafe_description", "Cafe website template created using <strong>ASP.NET Core 5</strong> for backend and <strong>SQLite</strong> database for portability and ease of use.")
+LocalizedStrings_en.set("cafe_description", "Cafe website template created using <strong>ASP.NET Core 5</strong> for backend and <strong>SQLite</strong> database for portability and ease of use. Built with <strong>mobile-first design</strong> in mind.")
 
 LocalizedStrings_en.set("cafe_goals", "Main goal was to create a good looking and standing out cafe website with user friendly CMS system. Secondary goal was to learn Bootstrap by practice.")
 LocalizedStrings_en.set("cafe_difficulties", "Designing layout. I wanted it to be very elegant and simple at the same time and I won't lie, it was hard.")
 LocalizedStrings_en.set("cafe_stack", "This site's using SQLite as database because of it's simplicity and portability. It works well both on Windows and Linux.")
+LocalizedStrings_en.set("cafe_learned", "Strong foundation of ASP.NET Core basics like <strong>routing</strong> (conventional, attribute), <strong>dependency injection</strong>, handling <strong>HTTP requests</strong> and identity <strong>authentication</strong>. Almost entire layout was created while learning <strong>Bootstrap</strong>.")
 
 /* CoD Map Converter */
 LocalizedStrings_en.set("converter_title", "CoD (1,2) Map Converter")
@@ -69,14 +71,16 @@ LocalizedStrings_en.set("converter_description", "Converts <strong>.bsp</strong>
 LocalizedStrings_en.set("converter_goals", "It was always a little dream of mine to port old games' maps to other platforms, such as Unity. So I've built a little tool that does just that.")
 LocalizedStrings_en.set("converter_difficulties", "Creating a small lib that converts unmanaged memory to struct objects, reverse engineering .bsp format structure because only small parts are documented.")
 LocalizedStrings_en.set("converter_stack", "I initially tried to write it in C++, but C# proved to be a lot simpler in building such app.")
+LocalizedStrings_en.set("converter_learned", "How to <strong>read</strong>, <strong>write</strong> and <strong>reverse engineer</strong> a binary file format, convert <strong>unmanaged memory</strong> to <strong>managed objects</strong>, read <strong>.zip</strong> files and extract data from them, how to create and handle <strong>configuration files</strong>.")
 
 /* CoD Bomber */
 LocalizedStrings_en.set("bomber_title", "CoD: UO Bomber")
-LocalizedStrings_en.set("bomber_description", "Made for <strong>Garry's Mod</strong>. This is a recreation of the mission in <strong>Call of Duty: United Offensive</strong>, with almost all the features from the original game and a few new additions.")
+LocalizedStrings_en.set("bomber_description", "Made for <strong>Garry's Mod</strong>. This is a recreation of the mission from <strong>Call of Duty: United Offensive</strong>, with almost all the features from the original game and a few new additions.")
 
-LocalizedStrings_en.set("bomber_goals", "Lots of people are nostalgic about old games, I'm one of them so I decided to give them a chance to relive their memories again, this time in much higher resolution!")
+LocalizedStrings_en.set("bomber_goals", "Lots of people are nostalgic about old games, I'm one of them so I decided to give them a chance to relive their memories again, this time in much higher resolution! It resulted in a success of <strong>over 40,000</strong> downloads and <strong>18,000</strong> active players.")
 LocalizedStrings_en.set("bomber_difficulties", "Re-creating the original's game feeling and immersing the player. It heavily relies on AI that had to be believeable and give the player a challenge.")
 LocalizedStrings_en.set("bomber_stack", "This is a mod for Garry's Mod, so using Lua API was the only possibility.")
+LocalizedStrings_en.set("bomber_learned", "How to convert content from one source to another, how to lay out a <strong>flexible</strong> and <strong>scalable project</strong>, basics of <strong>P2P networking</strong>, learned to listen to community's feedback and use it to further expand the project.")
 
 /* ECS Game Engine */
 LocalizedStrings_en.set("ecs_title", "ECS Game Engine")
@@ -85,3 +89,4 @@ LocalizedStrings_en.set("ecs_description", "Simple vanilla <strong>JavaScript ES
 LocalizedStrings_en.set("ecs_goals", "I wanted to create a similar scripting environment that Unity provides for creating games and effects on websites.")
 LocalizedStrings_en.set("ecs_difficulties", "Making it a simple 'drop and use' solution. Be it an advanced game or simple page effect, it shouldn't conflict with other scripts and DOM elements.")
 LocalizedStrings_en.set("ecs_stack", "Vanilla JavaScript and no external libs required. As simple as that.")
+LocalizedStrings_en.set("ecs_learned", "Strong understanding of JavaScript <strong>Event Loop</strong>, how to handle complex <strong>user input</strong> and <strong>rendering</strong> tasks (frame independent animations, AABB collisions, etc).")

@@ -17,7 +17,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(110, 110, 110);
+    background: rgb(140, 140, 140);
 }
 
 ::-webkit-scrollbar-track-piece {
