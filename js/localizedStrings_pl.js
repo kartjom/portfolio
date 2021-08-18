@@ -79,7 +79,7 @@ LocalizedStrings_pl.set("bomber_description", "Stworzone dla gry <strong>Garry's
 
 LocalizedStrings_pl.set("bomber_goals", "Duża część ludzi czuje wobec starszych gier swojego rodzaju sentyment. Sam należę do tej grupy, więc postanowiłem umożliwić im przeżycie tych wspomnień na nowo, tym razem w o wiele wyższej jakości! Owocem tej pracy jest <strong>ponad 40,000</strong> pobrań i <strong>18,000</strong> aktywnych graczy.")
 LocalizedStrings_pl.set("bomber_difficulties", "Odtworzenie klimatu oryginalnej gry i pochłonięcie w nim gracza. Tryb mocno polega na zachowaniu sztucznej inteligencji, która powinna być wiarygodna i być wyzwaniem dla gracza.")
-LocalizedStrings_pl.set("bomber_stack", "Jest to modyfikacja do gry Garry's Mod, więć użycie Lua API było jedyną możliwością.")
+LocalizedStrings_pl.set("bomber_stack", "Jest to modyfikacja do gry Garry's Mod, więc użycie Lua API było jedyną możliwością.")
 LocalizedStrings_pl.set("bomber_learned", "Konwertowania zawartości z jednego źródła do drugiego, projektowania <strong>elastycznego</strong> i <strong>skalowalnego projektu</strong>, podstaw <strong>networkingu P2P</strong>, korzystania z krytyki społeczności do dalszego rozwijania projektu.")
 
 /* ECS Game Engine */
