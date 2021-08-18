@@ -19,8 +19,10 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/project_card.css">
     <link rel="stylesheet" href="css/welcome.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
 
     <script src="src/GameEngine.js" type="module"></script>
+    <script src="js/betterScroll.js" defer></script>
 
     <title>Jakub Rutkowski - Portfolio</title>
 </head>
@@ -43,13 +45,13 @@
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
 
               <li class="nav-item px-3">
-                <a class="nav-link" href="#projects" data-localizer="projects"></a>
+                <a class="nav-link" onclick="focusOnElement('projects')" data-localizer="projects"></a>
               </li>
               <li class="nav-item px-3">
-                <a class="nav-link" href="#technologies" data-localizer="technologies"></a>
+                <a class="nav-link" onclick="focusOnElement('technologies')" data-localizer="technologies"></a>
               </li>
               <li class="nav-item px-3">
-                <a class="nav-link" href="#about" data-localizer="about"></a>
+                <a class="nav-link" onclick="focusOnElement('about')" data-localizer="about"></a>
               </li>
 
             </ul>

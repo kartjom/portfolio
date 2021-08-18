@@ -54,6 +54,7 @@ nav.scrolled .fab {
     position: absolute;
     font-size: 0.75rem;
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
 
     right: -12px;
     transition: all 200ms ease-in-out;
@@ -62,4 +63,8 @@ nav.scrolled .fab {
 nav.scrolled .language-switcher::after {
     font-size: 0.6rem;
     right: -8px;
+}
+
+.nav-link {
+    cursor: pointer;
 }
