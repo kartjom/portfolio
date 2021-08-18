@@ -1,3 +1,7 @@
+if (history.scrollRestoration) {
+    history.scrollRestoration = "manual";
+}
+
 function focusOnElement(id) {
     const node = document.querySelector(`#${id}`)
 

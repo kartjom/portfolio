@@ -3,7 +3,7 @@ const webProjectsData = [
         img: "img/thumb/cafe_template_thumb.jpg",
         title: "cafe_title",
         description: "cafe_description",
-        stack: ["ASP.NET Core 5.0", "SQLite"],
+        stack: ["ASP.NET Core 5.0", "Bootstrap", "SQLite"],
         preview: "https://github.com/KartaB/cafe-template",
         github: "https://github.com/KartaB/cafe-template",
         images: [
