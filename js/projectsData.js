@@ -4,7 +4,7 @@ const webProjectsData = [
         title: "cafe_title",
         description: "cafe_description",
         stack: ["ASP.NET Core 5", "SQLite", "Bootstrap"],
-        preview: "http://cafe.rutkowskijakub.pl/",
+        preview: "https://cafe.rutkowskijakub.pl/",
         github: "https://github.com/KartaB/cafe-template",
         images: [
             "img/gallery/cafe/cafe_main.jpg",
