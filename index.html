@@ -175,18 +175,7 @@
     <script src="js/localizedStrings_en.js"></script>
     <script src="js/localizationInitializer.js"></script>
 
-    <script>
-      document.addEventListener("scroll", () => {
-        const scrollOffset = window.scrollY;
-        const navbar = document.querySelector("nav");
-        const navbarHeight = navbar.scrollHeight;
-
-        if (scrollOffset > navbarHeight/2) {
-          navbar.classList.add("scrolled")
-        } else {
-          navbar.classList.remove("scrolled")
-        }
-      })
-    </script>
+    <!-- Navbar Scroll Background -->
+    <script src="js/navBarScroll.js"></script>
 </body>
 </html>
