@@ -64,6 +64,15 @@ LocalizedStrings_pl.set("cafe_difficulties", "Wymyślenie stylu. Założeniem pr
 LocalizedStrings_pl.set("cafe_stack", "Ta strona używa SQLite jako bazy danych ze względu na prostotę i kompatybilność z Windows'em i Linux'em bez żadnej wcześniejszej konfiguracji.")
 LocalizedStrings_pl.set("cafe_learned", "Solidnych podstaw ASP.NET Core, takich jak <strong>routing</strong> (conventional, attribute), <strong>dependency injection</strong>, obsługa <strong>żądań HTTP</strong> oraz platformy tożsamości <strong>(identity authentication)</strong>. Prawie całość layoutu została stworzona podczas nauki <strong>Bootstrap</strong>'a.")
 
+/* Reservation System */
+LocalizedStrings_pl.set("reservation_title", "System Rezerwacji")
+LocalizedStrings_pl.set("reservation_description", "Prosty <strong>system rezerwacji</strong> z <strong>integracją Email</strong>. Umożliwia <strong>tworzenie, potwierdzanie i usuwanie</strong> rezerwacji poprzez łącza wysyłane na Email.")
+
+LocalizedStrings_pl.set("reservation_goals", "Chciałem stworzyć <strong>prosty</strong> i <strong>stabilny</strong> system rezerwacji który polega na <strong>zarządzaniu rezerwacjami</strong> przez Email i ma własne <strong>środki zabezpieczające</strong> (nachodzące na siebie terminy, nieprawidłowe dane).")
+LocalizedStrings_pl.set("reservation_difficulties", "Stworzenie systemów ktore chronią aplikację przed <strong>nieprawidłowymi danymi</strong>, <strong>błędami bazy danych</strong> i innymi mniejszymi rzeczami.")
+LocalizedStrings_pl.set("reservation_stack", "Używam <strong>SQlite</strong> ze względu na jego <strong>prostotę</strong>. Do wysyłania maili używam <strong>MailKit</strong>.")
+LocalizedStrings_pl.set("reservation_learned", "Jak <strong>wysyłać maile</strong>, zarządzać datami w bazie danych i jak postawić kilka aplikacji .NET Core na jednym serwerze za pomocą <strong>NGINX</strong>.")
+
 /* CoD Map Converter */
 LocalizedStrings_pl.set("converter_title", "Konwerter map CoD (1,2)")
 LocalizedStrings_pl.set("converter_description", "Konwertuje pliki <strong>.bsp</strong> i <strong>.d3dbsp</strong> do formatu .obj i eksportuje materiały użyte na mapie prosto z plików gry.")

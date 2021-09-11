@@ -24,6 +24,23 @@ const webProjectsData = [
             stack_explained: "cafe_stack",
             learned_things: "cafe_learned"
         }
+    },
+    {
+        img: "img/thumb/reservation_system_thumb.jpg",
+        title: "reservation_title",
+        description: "reservation_description",
+        stack: ["ASP.NET Core 5", "SQLite", "MailKit"],
+        preview: "https://reservation.rutkowskijakub.pl/",
+        github: "https://github.com/KartaB/reservation-system",
+        images: [
+            "img/gallery/reservation_system/reservation_system_list.jpg",
+        ],
+        details: {
+            goals: "reservation_goals",
+            difficulties: "reservation_difficulties",
+            stack_explained: "reservation_stack",
+            learned_things: "reservation_learned"
+        }
     }
 ]
 

@@ -64,6 +64,15 @@ LocalizedStrings_en.set("cafe_difficulties", "Designing layout. I wanted it to b
 LocalizedStrings_en.set("cafe_stack", "This site's using SQLite as database because of it's simplicity and portability. It works well both on Windows and Linux.")
 LocalizedStrings_en.set("cafe_learned", "Strong foundation of ASP.NET Core basics like <strong>routing</strong> (conventional, attribute), <strong>dependency injection</strong>, handling <strong>HTTP requests</strong> and identity <strong>authentication</strong>. Almost entire layout was created while learning <strong>Bootstrap</strong>.")
 
+/* Reservation System */
+LocalizedStrings_en.set("reservation_title", "Reservation System")
+LocalizedStrings_en.set("reservation_description", "Simple <strong>reservation system</strong> with <strong>Email integration</strong>. Allows <strong>creating, confirming and deleting</strong> reservations by links sent on Email.")
+
+LocalizedStrings_en.set("reservation_goals", "I wanted to create <strong>simple</strong> and <strong>stable</strong> booking system that relies on <strong>managing reservations</strong> by Email and has it's own <strong>protective measures</strong> (overlap checks, fake data checks).")
+LocalizedStrings_en.set("reservation_difficulties", "Creating systems that protect app from <strong>fake data</strong>, <strong>wrong input</strong>, <strong>database exceptions</strong> and some other things.")
+LocalizedStrings_en.set("reservation_stack", "I'm using <strong>SQlite</strong> because it's so <strong>easy</strong> and <strong>fast</strong> to setup. For sending mails, I'm using <strong>MailKit</strong>.")
+LocalizedStrings_en.set("reservation_learned", "How to <strong>send mails</strong>, handle dates inside database and how to setup multiple .NET Core apps on a single server using <strong>NGINX</strong>.")
+
 /* CoD Map Converter */
 LocalizedStrings_en.set("converter_title", "CoD (1,2) Map Converter")
 LocalizedStrings_en.set("converter_description", "Converts <strong>.bsp</strong> and <strong>.d3dbsp</strong> files to .obj wavefront format and exports textures used by map from the game files.")
