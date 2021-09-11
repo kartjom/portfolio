@@ -70,7 +70,7 @@ LocalizedStrings_pl.set("reservation_description", "Prosty <strong>system rezerw
 
 LocalizedStrings_pl.set("reservation_goals", "Chciałem stworzyć <strong>prosty</strong> i <strong>stabilny</strong> system rezerwacji który polega na <strong>zarządzaniu rezerwacjami</strong> przez Email i ma własne <strong>środki zabezpieczające</strong> (nachodzące na siebie terminy, nieprawidłowe dane).")
 LocalizedStrings_pl.set("reservation_difficulties", "Stworzenie systemów ktore chronią aplikację przed <strong>nieprawidłowymi danymi</strong>, <strong>błędami bazy danych</strong> i innymi mniejszymi rzeczami.")
-LocalizedStrings_pl.set("reservation_stack", "Używam <strong>SQlite</strong> ze względu na jego <strong>prostotę</strong>. Do wysyłania maili używam <strong>MailKit</strong>.")
+LocalizedStrings_pl.set("reservation_stack", "Używam <strong>SQLite</strong> ze względu na jego <strong>prostotę</strong>. Do wysyłania maili używam <strong>MailKit</strong>.")
 LocalizedStrings_pl.set("reservation_learned", "Jak <strong>wysyłać maile</strong>, zarządzać datami w bazie danych i jak postawić kilka aplikacji .NET Core na jednym serwerze za pomocą <strong>NGINX</strong>.")
 
 /* CoD Map Converter */
