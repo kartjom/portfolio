@@ -23,7 +23,7 @@ LocalizedStrings_pl.set("free_time_projects", "Inne projekty")
 LocalizedStrings_pl.set("about_me", "O mnie")
 
 LocalizedStrings_pl.set("about_header", "Hej, tutaj!")
-LocalizedStrings_pl.set("about_text", "Dziękuję Ci za poświecenie swojego czasu!")
+LocalizedStrings_pl.set("about_text", "Dziękuję Ci za poświęcenie swojego czasu!")
 LocalizedStrings_pl.set("about_text_smaller", "Jeżeli miałbym coś o sobie powiedzieć, powiedział bym, że jestem <strong>bardzo</strong> zafascynowany tworzeniem rzeczy od zera, szczególnie programując. Obecnie szukam zespołu ludzi, z którymi będe mógł wymieniać się wiedzą i wnieść moje umiejętności na o wiele wyższy poziom!")
 
 /*  Footer */
