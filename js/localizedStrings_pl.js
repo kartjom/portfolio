@@ -73,6 +73,15 @@ LocalizedStrings_pl.set("reservation_difficulties", "Stworzenie systemów ktore 
 LocalizedStrings_pl.set("reservation_stack", "Używam <strong>SQLite</strong> ze względu na jego <strong>prostotę</strong>. Do wysyłania maili używam <strong>MailKit</strong>.")
 LocalizedStrings_pl.set("reservation_learned", "Jak <strong>wysyłać maile</strong>, zarządzać datami w bazie danych i jak postawić kilka aplikacji .NET Core na jednym serwerze za pomocą <strong>NGINX</strong>.")
 
+/* Shopping App */
+LocalizedStrings_pl.set("shopping_title", "Sklep internetowy")
+LocalizedStrings_pl.set("shopping_description", "Prosty <strong>sklep internetowy</strong> z <strong>systemem koszyka</strong>, <strong>historią zakupów</strong>, <strong>systemem kont</strong> i serią <strong>usług w tle</strong>.")
+
+LocalizedStrings_pl.set("shopping_goals", "Musiałem nauczyć się korzystać z <strong>uwierzytelniania</strong>, <strong>sesji</strong> i <strong>usług w tle</strong>, więc połączyłem to wszystko w <strong>sklep internetowy</strong>.")
+LocalizedStrings_pl.set("shopping_difficulties", "Generalnie sama aplikacja była dosyć łatwa do zaprogramowania i nie napotkałem żadnych znaczących problemów.")
+LocalizedStrings_pl.set("shopping_stack", "Używam <strong>SQLite</strong> jako bazy danych. Maile wysyłane są za pośrednictwem biblioteki <strong>MailKit</strong>.")
+LocalizedStrings_pl.set("shopping_learned", "Jak pracować z <strong>sesją</strong>, <strong>uwierzytelnianiem</strong>, <strong>usługami w tle</strong> i <strong>timer</strong>'ami.")
+
 /* CoD Map Converter */
 LocalizedStrings_pl.set("converter_title", "Konwerter map CoD (1,2)")
 LocalizedStrings_pl.set("converter_description", "Konwertuje pliki <strong>.bsp</strong> i <strong>.d3dbsp</strong> do formatu .obj i eksportuje materiały użyte na mapie prosto z plików gry.")

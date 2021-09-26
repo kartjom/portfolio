@@ -73,6 +73,15 @@ LocalizedStrings_en.set("reservation_difficulties", "Creating systems that prote
 LocalizedStrings_en.set("reservation_stack", "I'm using <strong>SQLite</strong> because it's so <strong>easy</strong> and <strong>fast</strong> to setup. For sending mails, I'm using <strong>MailKit</strong>.")
 LocalizedStrings_en.set("reservation_learned", "How to <strong>send mails</strong>, handle dates inside database and how to setup multiple .NET Core apps on a single server using <strong>NGINX</strong>.")
 
+/* Shopping App */
+LocalizedStrings_en.set("shopping_title", "Shopping App")
+LocalizedStrings_en.set("shopping_description", "Simple <strong>shopping app</strong> with <strong>cart system</strong>, <strong>purchase history</strong>, <strong>account system</strong> and multiple <strong>background services</strong>.")
+
+LocalizedStrings_en.set("shopping_goals", "I had to learn how to work with <strong>identity</strong>, <strong>session</strong> and <strong>background services</strong>, so I decided to create a simple shopping system.")
+LocalizedStrings_en.set("shopping_difficulties", "Overall the app was fairly easy to make and I didn't encounter any major problems.")
+LocalizedStrings_en.set("shopping_stack", "I'm using <strong>SQLite</strong> as the database. Mails are sent with use of <strong>MailKit</strong>.")
+LocalizedStrings_en.set("shopping_learned", "How to work with <strong>session</strong>, <strong>identity</strong>, <strong>background services</strong> and <strong>timers</strong>.")
+
 /* CoD Map Converter */
 LocalizedStrings_en.set("converter_title", "CoD (1,2) Map Converter")
 LocalizedStrings_en.set("converter_description", "Converts <strong>.bsp</strong> and <strong>.d3dbsp</strong> files to .obj wavefront format and exports textures used by map from the game files.")

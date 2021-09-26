@@ -41,6 +41,26 @@ const webProjectsData = [
             stack_explained: "reservation_stack",
             learned_things: "reservation_learned"
         }
+    },
+    {
+        img: "img/thumb/shopping_system_thumb.jpg",
+        title: "shopping_title",
+        description: "shopping_description",
+        stack: ["ASP.NET Core 5", "SQLite", "MailKit"],
+        preview: "https://shopping.rutkowskijakub.pl/",
+        github: "https://github.com/KartaB/shopping-app",
+        images: [
+            "img/gallery/shopping/shopping_cart.jpg",
+            "img/gallery/shopping/shopping_purchase.jpg",
+            "img/gallery/shopping/shopping_history.jpg",
+            "img/gallery/shopping/shopping_details.jpg",
+        ],
+        details: {
+            goals: "shopping_goals",
+            difficulties: "shopping_difficulties",
+            stack_explained: "shopping_stack",
+            learned_things: "shopping_learned"
+        }
     }
 ]
 
