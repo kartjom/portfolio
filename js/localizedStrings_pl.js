@@ -29,6 +29,7 @@ LocalizedStrings_pl.set("about_text_smaller", "Jeżeli miałbym coś o sobie pow
 /*  Footer */
 LocalizedStrings_pl.set("call", "TEL")
 LocalizedStrings_pl.set("mail", "MAIL")
+LocalizedStrings_pl.set("linkedin", "LINKEDIN")
 
 /* Technologies Section (Skills) */
 LocalizedStrings_pl.set("other", "Inne")

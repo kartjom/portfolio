@@ -160,6 +160,11 @@ body {
     color: #c0c3ca;
 }
 
-.footer-container .fas {
+.footer-container .fas,
+.footer-container .fab {
     margin-right: 1rem;
+}
+
+.fa-linkedin {
+    font-size: 1.785rem!important;
 }

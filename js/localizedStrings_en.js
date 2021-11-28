@@ -29,6 +29,7 @@ LocalizedStrings_en.set("about_text_smaller", "If I were to say something about 
 /*  Footer */
 LocalizedStrings_en.set("call", "CALL")
 LocalizedStrings_en.set("mail", "MAIL")
+LocalizedStrings_en.set("linkedin", "LINKEDIN")
 
 /* Technologies Section (Skills) */
 LocalizedStrings_en.set("other", "Other")
