@@ -21,16 +21,17 @@
     <link rel="stylesheet" href="css/welcome.css">
     <link rel="stylesheet" href="css/scrollbar.css">
 
-    <script src="src/GameEngine.js" type="module"></script>
+    <script type="module" src="src/Engine/main.js" gameInstance="src/Game/main.js"></script>
     <script src="js/betterScroll.js" defer></script>
 
     <title>Jakub Rutkowski - Portfolio</title>
 </head>
 <body style="overflow: hidden;">
     <div id="welcome">
+		<canvas></canvas>
         <div class="container header-container px-5 w-100 h-100 d-flex flex-column align-items-center justify-content-around">
             <h3 class="welcome-header text-center header" data-localizer="welcome_header"></h3>
-            <button onclick="welcome(event)" class="welcome-btn p-3 text-white " data-localizer="welcome_button"></button>
+            <button id="welcome_button" class="welcome-btn p-3 text-white " data-localizer="welcome_button"></button>
         </div>
     </div>
 
@@ -173,7 +174,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
     <!-- Custom JavaScript --> 
-    <script src="js/welcome.js"></script>
     <script src="js/projectsData.js"></script>
     <script src="js/projectCreator.js"></script>
 

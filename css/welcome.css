@@ -11,7 +11,7 @@
 }
 
 .welcome-btn {
-    background-color: rgb(20, 99, 151, 0.2);
+    background-color: rgb(20, 99, 151, 0.4);
     border: 2px solid rgb(136, 127, 127);
     border-radius: 10px;
 
@@ -36,10 +36,4 @@
              0px 18px 23px rgba(0,0,0,0.1);
 
     color: #e6ebfd;
-}
-
-canvas {
-    position: fixed;
-    bottom: 0;
-    right: 0;
 }
