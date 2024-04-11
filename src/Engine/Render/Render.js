@@ -27,10 +27,11 @@ EventManager.addEngineCallback(window, "resize", event => {
 
 function getCanvas() {
 	if (Viewport.Canvas === null) {
-		Viewport.Canvas = document.querySelector("canvas")
+		Viewport.Canvas = document.querySelector("canvas[main]")
 
 		if (Viewport.Canvas === null) {
 			Viewport.Canvas = document.createElement("canvas")
+			Viewport.Canvas.setAttribute("main", "")
 			maximize()
 
 			document.body.appendChild(Viewport.Canvas)

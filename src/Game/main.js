@@ -21,11 +21,6 @@ let grid
 export function start()
 {
 	Render.maximize()
-	
-	const welcome_button = document.querySelector("#welcome_button")
-	welcome_button.onclick = welcome
-
-	// Minigame
 	ctx = Render.getContext()
 
 	const cellSize = 32
@@ -105,17 +100,4 @@ export function update(deltaTime)
 	}
 
 	frame++
-}
-
-function welcome()
-{
-    const welcomeNode = document.querySelector("#welcome");
-    
-    welcomeNode.style.opacity = 0
-    setTimeout(() => {
-        document.body.style.overflow = "auto";
-        document.body.style.overflowX = "hidden";
-        welcomeNode.remove()
-		Core.Exit()
-    }, 1000)
 }

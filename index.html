@@ -20,7 +20,8 @@
     <link rel="stylesheet" href="css/project_card.css">
     <link rel="stylesheet" href="css/welcome.css">
     <link rel="stylesheet" href="css/scrollbar.css">
-
+	
+	<script src="js/welcome.js" defer></script>
     <script type="module" src="src/Engine/main.js" gameInstance="src/Game/main.js"></script>
     <script src="js/betterScroll.js" defer></script>
 
@@ -28,10 +29,10 @@
 </head>
 <body style="overflow: hidden;">
     <div id="welcome">
-		<canvas></canvas>
+		<canvas main style="position: absolute;"></canvas>
         <div class="container header-container px-5 w-100 h-100 d-flex flex-column align-items-center justify-content-around">
             <h3 class="welcome-header text-center header" data-localizer="welcome_header"></h3>
-            <button id="welcome_button" class="welcome-btn p-3 text-white " data-localizer="welcome_button"></button>
+            <button id="welcome_button" class="welcome-btn p-3 text-white " data-localizer="welcome_button" onclick="welcome()"></button>
         </div>
     </div>
 
@@ -59,7 +60,7 @@
             <ul class="navbar-nav mb-2 mb-lg-0">
 
                 <li class="nav-item px-2">
-                  <a class="nav-link" href="https://github.com/KartaB" target="_blank"><i class="fab fa-github"></i></a>
+                  <a class="nav-link" href="https://github.com/kartjom" target="_blank"><i class="fab fa-github"></i></a>
                 </li>
                 
                 <li class="nav-item px-2">

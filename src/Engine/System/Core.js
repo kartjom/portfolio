@@ -10,7 +10,8 @@ function Exit() {
 }
 
 function ShouldExit() {
-	return Engine.ShouldExit
+	const canvas = Render.getCanvas()
+	return Engine.ShouldExit || (canvas && canvas.shouldExit === true)
 }
 
 function Dispose() {

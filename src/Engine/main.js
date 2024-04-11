@@ -5,8 +5,13 @@ import InputManager from "./Input/InputManager.js"
 import Render from "./Render/Render.js"
 import { CurTime, DeltaTime } from "./Utility/Time.js"
 
-if ( await GameInstance.tryLoadGameInstance() ) {
-	requestAnimationFrame(engineLoop)
+try {
+	if ( await GameInstance.tryLoadGameInstance() ) {
+		requestAnimationFrame(engineLoop)
+	}
+}
+catch (ex) {
+	console.log(ex)
 }
 
 function engineLoop() {
