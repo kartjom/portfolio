@@ -2,9 +2,9 @@ import Entity from "./../Engine/System/Entity.js"
 import Input from "./../Engine/Input/InputManager.js"
 import Render from "./../Engine/Render/Render.js"
 import Vector2 from "../Engine/Structs/Vector2.js"
-import Color from "../Engine/Structs/Color.js"
 import Utils from "../Engine/Utility/Utils.js"
 import Core from "../Engine/System/Core.js"
+import SpatialHashGrid from "./Systems/SpatialHashGrid.js"
 
 import ParticleMove from "./Components/ParticleMove.js"
 import ParticleRender from "./Components/ParticleRender.js"
@@ -12,8 +12,11 @@ import ParticleRender from "./Components/ParticleRender.js"
 const particleList = []
 const connections = []
 
-const minDistance = 10
-const maxDistance = 160
+const minDistance = 32
+const maxDistance = 120
+
+let ctx
+let grid
 
 export function start()
 {
@@ -22,8 +25,17 @@ export function start()
 	const welcome_button = document.querySelector("#welcome_button")
 	welcome_button.onclick = welcome
 
+	// Minigame
+	ctx = Render.getContext()
+
+	const cellSize = 32
 	const width = Render.getScreenSize().x;
-    for (let i = 0; i < Math.min(400, width / 6); i++) {
+	const height = Render.getScreenSize().y;
+
+	SpatialHashGrid.Global = new SpatialHashGrid(cellSize, Math.floor(width / cellSize) + 1, Math.floor(height / cellSize) + 1)
+	grid = SpatialHashGrid.Global
+
+    for (let i = 0; i < Math.min(600, width / 4); i++) {
         const pos = Utils.RandomVector(new Vector2(), Render.getScreenSize())
 
 		const particle = new Entity("particle")
@@ -44,52 +56,55 @@ export function start()
 
 			const hash = `${min}_${max}`
 			if (connections[hash] === undefined) {
-				connections[hash] = { p1: particle, p2: other }
+				connections[hash] = { p1: particle, p2: other, frame: -1}
 			}
 		}
 	}
+
+	grid.build(particleList)
 }
 
-let frames = 0
+let frame = 0
 export function update(deltaTime)
 {
-	for (const index in connections) {
-		const { p1, p2, dist } = connections[index]
+	for (const p of particleList)
+	{
+		const cell = grid.getCell(p.transform.position.x, p.transform.position.y)
+		if (cell)
+		{
+			const neighbourCells = grid.getCellsInRadius(cell.x, cell.y, 3)
+			for (const c of neighbourCells)
+			{
+				if (c == cell) continue // skip current cell
 
-		let distance
-		if (frames % 2 == 0) {
-			distance = Vector2.DistanceManhattan(p1.transform.position, p2.transform.position)
-			connections[index].dist = distance
-		} else {
-			distance = dist
-		}
+				for (const o of c.objects)
+				{
+					const min = Math.min(p.getIndex(), o.getIndex())
+					const max = Math.max(p.getIndex(), o.getIndex())
+					const hash = `${min}_${max}`
+					const conn = connections[hash]
+
+					if (conn.frame >= frame) continue
+					conn.frame = frame
+
+					const distance = Vector2.DistanceManhattan(p.transform.position, o.transform.position)
 		
-		if (distance >= minDistance && distance <= maxDistance) {
-			const alpha = (maxDistance - distance) / maxDistance
+					if (distance >= minDistance && distance <= maxDistance) {
+						const alpha = (maxDistance - distance) / maxDistance
 
-			const color1 = Color.hslToRgb(p1.getComponent("ParticleRender").color)
-			const color2 = Color.hslToRgb(p2.getComponent("ParticleRender").color)
-			
-			const middleColor = getMiddleColor(color1, color2)
-			middleColor.Alpha = alpha
-
-			Render.drawLine({
-				position: p1.transform.position,
-				points: [ p2.transform.position ],
-				style: middleColor.toString()
-			})
+						ctx.strokeStyle = `${p.getComponent("ParticleRender").colorTemplate}${alpha}`
+						ctx.beginPath()
+						ctx.moveTo(p.transform.position.x, p.transform.position.y)			
+						ctx.lineTo(o.transform.position.x, o.transform.position.y)			
+						ctx.closePath()
+						ctx.stroke()
+					}
+				}
+			}	
 		}
 	}
 
-	frames++
-}
-
-function getMiddleColor(color1, color2) {
-	const middleR = Math.round((color1.R + color2.R) / 2);
-	const middleG = Math.round((color1.G + color2.G) / 2);
-	const middleB = Math.round((color1.B + color2.B) / 2);
-
-	return new Color(middleR, middleG, middleB);
+	frame++
 }
 
 function welcome()
