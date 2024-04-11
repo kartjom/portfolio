@@ -4,7 +4,11 @@ function ReplaceLocalizedStrings()
 
     for (const elem of elements) {
         const localizerKey = elem.getAttribute("data-localizer")
-        elem.innerHTML = Localizer.get(localizerKey);
+
+		const text = Localizer.get(localizerKey)
+		if (text) {
+			elem.innerHTML = text
+		}
     }
 
     const langSwitcherIcon = document.querySelector("#lang-switcher");
