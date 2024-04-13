@@ -61,6 +61,8 @@
 }
 
 .project-card .project-card-btn {
+	width: 100px;
+
     background-color: hsl(216, 49%, 42%);
     border: 2px solid hsl(216, 49%, 42%);
 
@@ -83,27 +85,9 @@
 }
 
 .project-modal-details {
-    background-color: var(--bgcolor-darkblue)!important;
-    padding: 1rem 2rem;
+	background-color: rgb(233, 233, 233);
 }
 
 .project-modal-title {
-    color: var(--font-light-gray);
     font-size: 2rem;
-}
-
-.project-modal-section {
-    padding: 1rem 0;
-}
-
-.project-modal-header {
-    color: var(--font-light-gray);
-
-    padding-bottom: 0.25rem;
-    font-size: 1.5rem;
-}
-
-.project-modal-description {
-    color: #8892B0;
-    font-size: 1.15rem;
 }

@@ -26,6 +26,9 @@
     <script type="module" src="src/Engine/main.js" gameInstance="src/Game/main.js"></script>
     <script src="js/betterScroll.js" defer></script>
 
+	<script src="lsystem/lsystem.js"></script>
+	<link rel="stylesheet" href="lsystem/lsystem.css">
+
     <title>Jakub Rutkowski - Portfolio</title>
 </head>
 <body style="overflow: hidden;">
@@ -94,14 +97,14 @@
 
 		<!-- Cafe -->
 		<div class="work-experience mb-5 mx-2 mb-xl-0">
-			<a class="project__image_container" href="img/thumb/cafe_thumb.jpg" data-fancybox="cafe">
-                <img src="img/thumb/cafe_thumb.jpg">
+			<a class="project__image_container" href="img/projects/cafe/thumb.jpg" data-fancybox="cafe">
+                <img src="img/projects/cafe/thumb.jpg">
             </a>
 			<div class="project__stack mt-2 mb-3 text-center text-nowrap">Cafe Website</div>
 
 			<div class="px-4">
 				<div class="we-section d-flex justify-content-between align-items-center">
-					<div class="we-header">.NET Developer</div>
+					<div class="we-header">Full Stack Developer</div>
 					<div>
 						<div class="we-description text-center"><strong>Cafe 15</strong></div>
 						<div class="we-description"><i class="far fa-calendar-alt me-2"></i>2020</div>
@@ -124,6 +127,17 @@
 					</ul>
 				</div>
 			</div>
+
+			<img src="img/projects/cafe/1.jpg" data-fancybox="cafe" loading="lazy" class="d-none">
+			<img src="img/projects/cafe/2.jpg" data-fancybox="cafe" loading="lazy" class="d-none">
+			<img src="img/projects/cafe/3.jpg" data-fancybox="cafe" loading="lazy" class="d-none">
+			<img src="img/projects/cafe/4.jpg" data-fancybox="cafe" loading="lazy" class="d-none">
+			<img src="img/projects/cafe/5.jpg" data-fancybox="cafe" loading="lazy" class="d-none">
+			<img src="img/projects/cafe/6.jpg" data-fancybox="cafe" loading="lazy" class="d-none">
+			<img src="img/projects/cafe/7.jpg" data-fancybox="cafe" loading="lazy" class="d-none">
+			<img src="img/projects/cafe/8.jpg" data-fancybox="cafe" loading="lazy" class="d-none">
+			<img src="img/projects/cafe/9.jpg" data-fancybox="cafe" loading="lazy" class="d-none">
+			<img src="img/projects/cafe/10.jpg" data-fancybox="cafe" loading="lazy" class="d-none">
 		</div>
 
 		<!-- Auxilia -->
@@ -144,7 +158,7 @@
 	
 				<div class="we-section">
 					<div class="we-header text-nowrap">About</div>
-					<div class="we-description">Auxilia is a comprehensive <strong>Donor Management System</strong> software that bridges the gap between nonprofits and donors to elevate fundraising and support worthy causes.</div>
+					<div class="we-description pe-5">Auxilia is a comprehensive <strong>Donor Management System</strong> software that bridges the gap between nonprofits and donors to elevate fundraising and support worthy causes.</div>
 				</div>
 	
 				<div class="we-section">
@@ -165,13 +179,7 @@
     </div>
 
     <hr class="text-white w-75 mx-auto">
-    <h3 class="header mt-5 text-center" id="projects" data-localizer="projects"></h3>
-
-    <h3 class="header-small pt-5 text-center" id="webProjects" data-localizer="websites"></h3>
-    <!-- Web Projects (embedded with JavaScript) -->
-
-    <hr class="text-white w-75 mx-auto">
-    <h3 class="header-small pt-5 text-center" id="personalProjects" data-localizer="free_time_projects"></h3>
+    <h3 class="header mt-5 text-center" id="personalProjects" data-localizer="projects"></h3>
     <!-- Personal Projects (embedded with JavaScript) -->
 
     <hr class="text-white w-75 mx-auto">
@@ -264,5 +272,91 @@
 
     <!-- Navbar Scroll Background -->
     <script src="js/navBarScroll.js"></script>
+
+	<!-- ECS Modal -->
+	<div class="modal fade" id="ecs_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content project-modal-details">
+                <div class="modal-header">
+                    <h5 class="modal-title project-modal-title" id="exampleModalLabel"><strong>ECS - L-system</strong></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section class="lsystem_window">
+						<section>
+							<div class="lsystem_options_panel">
+								<div>
+									<h1>Generation</h1>
+									<div>
+										<label for="tree_type">Tree type</label>
+										<input type="range" id="tree_type" min="0" max="4" value="0" oninput="lsystem.draw()">
+									</div>
+									<div>
+										<label for="iterations">Iterations</label>
+										<input type="range" id="iterations" min="1" max="3" value="3" oninput="lsystem.draw()">
+									</div>
+								</div>
+								<div>
+									<div class="lsystem_generator_header">
+										<h1>Leaves</h1>
+										<input type="color" id="leaf_color" value="#5f926a" oninput="lsystem.draw()">
+									</div>
+									<div>
+										<label for="leaf_type">Type</label>
+										<input type="range" id="leaf_type" min="0" max="1" value="0" oninput="lsystem.draw()">
+									</div>
+									<div>
+										<label for="leaf_alpha">Alpha</label>
+										<input type="range" id="leaf_alpha" min="0" max="255" value="200" oninput="lsystem.draw()">
+									</div>
+									<div>
+										<label for="leaf_length">Length</label>
+										<input type="range" id="leaf_length" min="1" max="60" value="30" oninput="lsystem.draw()">
+									</div>
+									<div>
+										<label for="leaf_width">Width</label>
+										<input type="range" id="leaf_width" min="1" max="20" value="10" oninput="lsystem.draw()">
+									</div>
+								</div>
+								<div>
+									<div class="lsystem_generator_header">
+										<h1>Branches</h1>
+										<input type="color" id="branch_color" value="#8a6240" oninput="lsystem.draw()">
+									</div>
+									<div>
+										<label for="branch_alpha">Alpha</label>
+										<input type="range" id="branch_alpha" min="1" max="255" value="255" oninput="lsystem.draw()">
+									</div>
+									<div>
+										<label for="branch_length">Length</label>
+										<input type="range" id="branch_length" min="1" max="60" value="20" oninput="lsystem.draw()">
+									</div>
+									<div>
+										<label for="branch_width">Width</label>
+										<input type="range" id="branch_width" min="1" max="10" value="2" oninput="lsystem.draw()">
+									</div>
+									<div>
+										<label for="branch_angle">Angle</label>
+										<input type="range" id="branch_angle" min="-50" max="50" value="25" oninput="lsystem.draw()">
+									</div>
+								</div>
+							</div>
+						</section>
+						<section>
+							<canvas width="800" height="800"></canvas>
+						</section>
+					</section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<script>
+		const ecs_modal = document.querySelector("#ecs_modal")
+		ecs_modal.addEventListener('shown.bs.modal', function () {
+			lsystem.draw()
+		})
+	</script>
+
 </body>
 </html>
