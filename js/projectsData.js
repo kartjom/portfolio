@@ -1,13 +1,13 @@
 const projectsData = [
     {
-        img: "img/projects/converter/thumb.png",
+        img: "img/projects/converter/thumb.jpg",
         title: "converter_title",
         description: "converter_description",
         stack: ["C#"],
         github: "https://github.com/kartjom/bsp-converter",
         images: [
-            "img/projects/converter/1.png",
-            "img/projects/converter/2.png",
+            "img/projects/converter/1.jpg",
+            "img/projects/converter/2.jpg",
         ],
     },
     {
