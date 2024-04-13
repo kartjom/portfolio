@@ -12,14 +12,15 @@ const LocalizedStrings_en = {
 	"info_start": "Hello, my name is",
 	"info_name": "Jakub Rutkowski",
 	"info_stack": "Software Engineer / Full Stack Developer",
-	"info_description": "Besides from creating websites, I'm actively tinkering with <strong>binary stuff</strong> and <strong>reverse engineering</strong>, learning <strong>Unity</strong>, creating content for games and <strong>developing new skills</strong>.",
+	"info_description_1": "With <strong>nearly a decade</strong> of programming experience, including <strong>three years</strong> of commercial work, I bring a wealth of expertise to every project I undertake.",
+	"info_description_2": "My journey in software engineering has equipped me with a deep understanding of various technologies and a proven track record of delivering <strong>high-quality solutions</strong>.",
 
 	/* About Me Section */
 	"about_me": "About Me",
 
-	"about_header": "Hey there!",
 	"about_text": "Thanks for visiting my portfolio!",
-	"about_text_smaller": "If I were to say something about myself, I'd say I'm <strong>very</strong> passionate about creating things from the ground up, especially when coding. I'm currently looking for a team of people whom I'll be able to exchange knowledge and take my skills to a new level!",
+	"about_text_smaller_1": "I am <strong>very passionate</strong> about continuously learning and refining my skills to tackle new challenges and exceed expectations.",
+	"about_text_smaller_2": "I'm currently looking for a team of people whom I'll be able to exchange knowledge and take my skills to a new level!",
 
 	/*  Footer */
 	"call": "CALL",

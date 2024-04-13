@@ -12,14 +12,15 @@ const LocalizedStrings_pl = {
 	"info_start": "Hej, nazywam się",
 	"info_name": "Jakub Rutkowski",
 	"info_stack": "Software Engineer / Full Stack Developer",
-	"info_description": "Oprócz tworzenia aplikacji internetowych, często zdarza mi się pracować przy <strong>plikach binarnych</strong> i <strong>rozgryzać ich struktury</strong>, doszkalam się w <strong>Unity</strong>, tworzę zawartość do gier i ciągle <strong>rozwijam nowe umiejętności</strong>.",
+	"info_description_1": "Z <strong>niemal dekadą</strong> doświadczenia w programowaniu, w tym <strong>trzema latami</strong> pracy komercyjnej, przynoszę bogate doświadczenie i wiedzę do każdego projektu, który podejmuję.",
+	"info_description_2": "Dzięki mojemu doświadczeniu w tworzeniu oprogramowania, mam głębokie zrozumienie różnych technologii oraz udokumentowany sukces w dostarczaniu <strong>rozwiązań wysokiej jakości</strong>.",
 
 	/* About Me Section */
 	"about_me": "O mnie",
 
-	"about_header": "Hej, tutaj!",
 	"about_text": "Dziękuję Ci za poświęcenie swojego czasu!",
-	"about_text_smaller": "Jeżeli miałbym coś o sobie powiedzieć, powiedział bym, że jestem <strong>bardzo</strong> zafascynowany tworzeniem rzeczy od zera, szczególnie programując. Obecnie szukam zespołu ludzi, z którymi będe mógł wymieniać się wiedzą i wnieść moje umiejętności na o wiele wyższy poziom!",
+	"about_text_smaller_1": "Z ogromnym zapałem dążę do ciągłego doskonalenia swoich umiejętności oraz podejmowania nowych wyzwań.",
+	"about_text_smaller_2": "Obecnie szukam zespołu ludzi, z którymi będę mógł wymieniać się wiedzą i podnieść moje umiejętności na nowy poziom!",
 
 	/*  Footer */
 	"call": "TEL",

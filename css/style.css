@@ -82,7 +82,7 @@ body {
     color: var(--font-gray);
     font-size: clamp(10px, 8vw, 20px);
     margin-top: 20px;
-    max-width: 650px;
+    max-width: 800px;
 }
 
 .skills-header {
@@ -118,15 +118,16 @@ body {
 
 .about-text {
     color: var(--font-gray);
-    font-size: clamp(10px, 8vw, 28px);
+    font-size: clamp(10px, 8vw, 34px);
     margin-top: 20px;  
+	margin-bottom: 8px;
     max-width: 1000px;
 
     letter-spacing: 1px;
 }
 
 .about-text.smaller {
-    font-size: clamp(10px, 8vw, 24px);
+    font-size: clamp(10px, 8vw, 22px);
 }
 
 .footer-container {
