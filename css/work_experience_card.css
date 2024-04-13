@@ -136,38 +136,41 @@
 }
 
 /* Magic */
-.work-experience .we-section:nth-child(1) {
-	opacity: 0;
 
-	transition-delay: 50ms;
-	transition-duration: 500ms;
-	transition-property: opacity;
-}
-.work-experience:hover .we-section:nth-child(1) {
-	opacity: 1;
-	transition-delay: 100ms;
-}
+@media screen and (min-width: 992px) {
+	.work-experience .we-section:nth-child(1) {
+		opacity: 0;
 
-.work-experience .we-section:nth-child(2) {
-	opacity: 0;
+		transition-delay: 50ms;
+		transition-duration: 500ms;
+		transition-property: opacity;
+	}
+	.work-experience:hover .we-section:nth-child(1) {
+		opacity: 1;
+		transition-delay: 100ms;
+	}
 
-	transition-delay: 50ms;
-	transition-duration: 500ms;
-	transition-property: opacity;
-}
-.work-experience:hover .we-section:nth-child(2) {
-	opacity: 1;
-	transition-delay: 700ms;
-}
+	.work-experience .we-section:nth-child(2) {
+		opacity: 0;
 
-.work-experience .we-section:nth-child(3) {
-	opacity: 0;
+		transition-delay: 50ms;
+		transition-duration: 500ms;
+		transition-property: opacity;
+	}
+	.work-experience:hover .we-section:nth-child(2) {
+		opacity: 1;
+		transition-delay: 700ms;
+	}
 
-	transition-delay: 50ms;
-	transition-duration: 500ms;
-	transition-property: opacity;
-}
-.work-experience:hover .we-section:nth-child(3) {
-	opacity: 1;
-	transition-delay: 1200ms;
+	.work-experience .we-section:nth-child(3) {
+		opacity: 0;
+
+		transition-delay: 50ms;
+		transition-duration: 500ms;
+		transition-property: opacity;
+	}
+	.work-experience:hover .we-section:nth-child(3) {
+		opacity: 1;
+		transition-delay: 1200ms;
+	}
 }
