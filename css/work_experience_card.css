@@ -19,7 +19,7 @@
 	
 	flex: 2;
 	max-width: 800px;
-	height: 800px;
+	height: 850px;
 
 	transition: all 1s ease, height 500ms ease;
 }
@@ -28,7 +28,7 @@
 	.work-experience {			
 		flex: 2;
 		max-width: 800px;
-		height: 800px;
+		height: 850px;
 	
 		transition: all 1s ease, height 500ms ease;
 	}
