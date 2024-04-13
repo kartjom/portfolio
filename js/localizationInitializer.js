@@ -5,7 +5,7 @@ function ReplaceLocalizedStrings()
     for (const elem of elements) {
         const localizerKey = elem.getAttribute("data-localizer")
 
-		const text = Localizer.get(localizerKey)
+		const text = Localizer[localizerKey]
 		if (text) {
 			elem.innerHTML = text
 		}
@@ -27,7 +27,6 @@ function UpdateLocalizer() {
 }
 
 let Localizer = new Map();
-
 
 UpdateLocalizer()
 ReplaceLocalizedStrings();
