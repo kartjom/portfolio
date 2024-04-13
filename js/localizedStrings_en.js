@@ -42,6 +42,30 @@ const LocalizedStrings_en = {
 	"preview": "Preview",
 	"code": "Code",
 
+	/* Work Experience */
+	"work_experience": "Work Experience",
+	"we_about": "About",
+	"we_responsibilities": "I was responsible for",
+
+	/* Cafe */
+	"cafe_title": "Cafe Website",
+	"cafe_description_1": "Simple, responsive and elegant website for a local restaurant <strong>Cafe 15</strong>.",
+	"cafe_description_2": "Combines together easy to use and powerful <strong>blog system</strong> and <strong>customizable menu</strong>.",
+	"cafe_point_1": "Collaborating with the customer to craft a bespoke website design",
+	"cafe_point_2": "Developing <strong>back-end</strong> and <strong>front-end</strong> from the ground up",
+	"cafe_point_3": "Integrating <strong>social media</strong> into the blog system",
+	"cafe_point_4": "Hosting and maintaining the infrastructure",
+
+	/* Auxilia */
+	"auxilia_description": "Auxilia is a comprehensive <strong>Donor Management System</strong> software that bridges the gap between nonprofits and donors to elevate fundraising and support worthy causes.",
+	"auxilia_point_1": "Developing, testing, and maintaining back-end services",
+	"auxilia_point_2": "Designing front-end logic with <strong>Angular</strong>",
+	"auxilia_point_3": "Optimizing performance critical sections of the system",
+	"auxilia_point_4": "Integrating <strong>SQL Server</strong> and <strong>Entity Framework</strong> for database operations",
+	"auxilia_point_5": "Implementing <strong>SendGrid</strong> for email delivery",
+	"auxilia_point_6": "Maintaining and enhancing payment system",
+	"auxilia_point_7": "Communicating with customer to implement new features",
+
 	/* Map Converter */
 	"converter_title": "Map Converter",
 	"converter_description": "Converts <strong>.bsp</strong> and <strong>.d3dbsp</strong> files to .obj format and exports assets used by map from the game files.",
