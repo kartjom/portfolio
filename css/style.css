@@ -58,7 +58,11 @@ body {
 /* Info */
 
 .info-container {
-    margin-bottom: 40vh;
+    margin-bottom: 35vh;
+}
+
+.section-spacer {
+	margin-top: 15vh;
 }
 
 .info-start {
