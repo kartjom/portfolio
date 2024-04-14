@@ -30,13 +30,22 @@ const LocalizedStrings_pl = {
 	/* Technologies Section (Skills) */
 	"other": "Inne",
 
-	"frontend_js": "Bardzo dobra i praktyczna znajomość JavaScript",
-	"frontend_react": "Poczatkujący poziom React.js",
+	"fe_skill_1": "Bardzo dobra znajomość <strong>HTML</strong> i <strong>CSS</strong>",
+	"fe_skill_2": "Praktyczne doświadczenie z <strong>JavaScript</strong>",
+	"fe_skill_3": "Podstawowa znajomość <strong>Angular</strong> i <strong>React.js</strong>",
+	"fe_skill_4": "Doświadczenie z <strong>Bootstrap</strong>",
 
-	"backend_csharp": "Dobra znajomość C#:",
-	"backend_db": "Podstawowa znajomość:",
+	"be_skill_1": "Doskonała znajomość <strong>C#</strong> i <strong>.NET</strong>, w tym:",
+	"be_skill_2": "- <strong>ASP.NET Core</strong> (MVC, REST API)",
+	"be_skill_3": "- <strong>WPF</strong>",
+	"be_skill_4": "Praktyczne doświadczenie z <strong>MySQL</strong> i <strong>SQL Server</strong>",
+	"be_skill_5": "Nierelacyjne bazy danych, w tym <strong>Redis</strong>",
+	"be_skill_6": "Doświadczenie z <strong>Entity Framework</strong> i <strong>Dapper</strong>",
 
-	"other_langs": "Doświadczenie z C++ i Lua",
+	"other_skill_1": "Dobra znajomość <strong>C++</strong> i <strong>Lua</strong>",
+	"other_skill_2": "Podstawowa znajomość <strong>x86 Assembly</strong>",
+	"other_skill_3": "Praktyczne doświadczenie z <strong>Git</strong>, <strong>GitHub</strong> i <strong>Azure DevOps</strong>",
+	"other_skill_4": "Doświadczenie z <strong>SendGrid</strong> i <strong>Stripe</strong>",
 
 	/* Project Card */
 	"technologies_used": "Użyte technologie",
@@ -52,20 +61,20 @@ const LocalizedStrings_pl = {
 	"cafe_title": "Strona kawiarni",
 	"cafe_description_1": "Prosta, responsywna i elegancka strona dla lokalnej restauracji <strong>Cafe 15</strong>.",
 	"cafe_description_2": "Łączy łatwy w użyciu <strong>system blogowy</strong> oraz <strong>w pełni personalizowalne menu</strong>.",
-	"cafe_point_1": "Współpraca z klientem w celu stworzenia indywidualnego designu strony",
+	"cafe_point_1": "Współpracę z klientem w celu stworzenia indywidualnego designu strony",
 	"cafe_point_2": "Tworzenie <strong>back-endu</strong> i <strong>front-endu</strong> od podstaw",
-	"cafe_point_3": "Integracja <strong>mediów społecznościowych</strong> z systemem blogowym",
+	"cafe_point_3": "Integrację <strong>mediów społecznościowych</strong> z systemem blogowym",
 	"cafe_point_4": "Hosting i utrzymanie infrastruktury",
 
 	/* Auxilia */
 	"auxilia_description": "Auxilia to kompleksowe oprogramowanie do <strong>zarządzania darczyńcami</strong>, które łączy organizacje non-profit z darczyńcami, aby podnieść poziom zbiórek i wspierać godne cele.",
 	"auxilia_point_1": "Rozwój, testowanie i utrzymanie serwisów back-endowych",
 	"auxilia_point_2": "Projektowanie logiki front-endu z użyciem <strong>Angulara</strong>",
-	"auxilia_point_3": "Optymalizacja krytycznych pod względem wydajności sekcji systemu",
-	"auxilia_point_4": "Integracja <strong>SQL Server</strong> i <strong>Entity Framework</strong> dla operacji na bazie danych",
-	"auxilia_point_5": "Implementacja <strong>SendGrid</strong> do wysyłki e-maili",
+	"auxilia_point_3": "Optymalizację krytycznych pod względem wydajności sekcji systemu",
+	"auxilia_point_4": "Integrację <strong>SQL Server</strong> i <strong>Entity Framework</strong> dla operacji na bazie danych",
+	"auxilia_point_5": "Implementację <strong>SendGrid</strong> do wysyłki e-maili",
 	"auxilia_point_6": "Utrzymanie i rozwijanie systemu płatności",
-	"auxilia_point_7": "Komunikacja z klientem w celu implementacji nowych funkcjonalności",
+	"auxilia_point_7": "Komunikację z klientem w celu implementacji nowych funkcjonalności",
 
 	/* Map Converter */
 	"converter_title": "Konwerter Map",

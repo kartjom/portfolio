@@ -30,13 +30,22 @@ const LocalizedStrings_en = {
 	/* Technologies Section (Skills) */
 	"other": "Other",
 
-	"frontend_js": "Very good and practical knowledge of JavaScript",
-	"frontend_react": "Entry level React.js",
+	"fe_skill_1": "Very good knowledge of <strong>HTML</strong> and <strong>CSS</strong>",
+	"fe_skill_2": "Practical experience with <strong>JavaScript</strong>",
+	"fe_skill_3": "Basic knowledge of <strong>Angular</strong> and <strong>React.js</strong>",
+	"fe_skill_4": "Experience with <strong>Bootstrap</strong>",
 
-	"backend_csharp": "Good knowledge of C#:",
-	"backend_db": "Basic experience with:",
+	"be_skill_1": "Excellent knowledge of <strong>C#</strong> and <strong>.NET</strong>, including:",
+	"be_skill_2": "- <strong>ASP.NET Core</strong> (MVC, REST API)",
+	"be_skill_3": "- <strong>WPF</strong>",
+	"be_skill_4": "Practical experience with <strong>MySQL</strong> and <strong>SQL Server</strong>",
+	"be_skill_5": "Non-relational databases like <strong>Redis</strong>",
+	"be_skill_6": "Experience with <strong>Entity Framework</strong> and <strong>Dapper</strong>",
 
-	"other_langs": "Experience with C++ and Lua",
+	"other_skill_1": "Good knowledge of <strong>C++</strong> and <strong>Lua</strong>",
+	"other_skill_2": "Basic knowledge of <strong>x86 Assembly</strong>",
+	"other_skill_3": "Practical experience with <strong>Git</strong>, <strong>GitHub</strong> and <strong>Azure DevOps</strong>",
+	"other_skill_4": "Experience with <strong>SendGrid</strong> and <strong>Stripe</strong>",
 
 	/* Project Card */
 	"technologies_used": "Technologies used",
