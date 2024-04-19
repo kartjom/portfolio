@@ -73,8 +73,9 @@ const LocalizedStrings_pl = {
 	"auxilia_point_3": "Optymalizację krytycznych pod względem wydajności sekcji systemu",
 	"auxilia_point_4": "Integrację <strong>SQL Server</strong> i <strong>Entity Framework</strong> dla operacji na bazie danych",
 	"auxilia_point_5": "Implementację <strong>SendGrid</strong> do wysyłki e-maili",
-	"auxilia_point_6": "Utrzymanie i rozwijanie systemu płatności",
-	"auxilia_point_7": "Komunikację z klientem w celu implementacji nowych funkcjonalności",
+	"auxilia_point_6": "Wykorzystywanie i rozwijanie <strong>RabbitMQ</strong> do kolejkowania wiadomości",
+	"auxilia_point_7": "Utrzymanie i rozwijanie systemu płatności",
+	"auxilia_point_8": "Komunikację z klientem w celu implementacji nowych funkcjonalności",
 
 	/* Map Converter */
 	"converter_title": "Konwerter Map",

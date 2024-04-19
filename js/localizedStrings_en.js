@@ -73,8 +73,9 @@ const LocalizedStrings_en = {
 	"auxilia_point_3": "Optimizing performance critical sections of the system",
 	"auxilia_point_4": "Integrating <strong>SQL Server</strong> and <strong>Entity Framework</strong> for database operations",
 	"auxilia_point_5": "Implementing <strong>SendGrid</strong> for email delivery",
-	"auxilia_point_6": "Maintaining and enhancing payment system",
-	"auxilia_point_7": "Communicating with customer to implement new features",
+	"auxilia_point_6": "Utilizing and maintaining <strong>RabbitMQ</strong> for efficient message queuing",
+	"auxilia_point_7": "Maintaining and enhancing payment system",
+	"auxilia_point_8": "Communicating with customer to implement new features",
 
 	/* Map Converter */
 	"converter_title": "Map Converter",
