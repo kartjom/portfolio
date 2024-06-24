@@ -12,7 +12,7 @@ const LocalizedStrings_en = {
 	"info_start": "Hello, my name is",
 	"info_name": "Jakub Rutkowski",
 	"info_stack": "Software Engineer / Full Stack Developer",
-	"info_description_1": "With <strong>nearly a decade</strong> of programming experience, including <strong>three years</strong> of commercial work, I bring a wealth of expertise to every project I undertake.",
+	"info_description_1": "With <strong>a decade</strong> of programming experience, including <strong>four years</strong> of commercial work, I bring a wealth of expertise to every project I undertake.",
 	"info_description_2": "My journey in software engineering has equipped me with a deep understanding of various technologies and a proven track record of delivering <strong>high-quality solutions</strong>.",
 
 	/* About Me Section */

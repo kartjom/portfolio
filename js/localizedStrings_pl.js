@@ -1,6 +1,6 @@
 const LocalizedStrings_pl = {
 	/* Welcome Page */
-	"welcome_header": "Witaj na stronie mojego portfolio!",
+	"welcome_header": "Witaj na moim portfolio!",
 	"welcome_button": "Kliknij tutaj aby rozpocząć!",
 
 	/* Navbar */
@@ -12,7 +12,7 @@ const LocalizedStrings_pl = {
 	"info_start": "Hej, nazywam się",
 	"info_name": "Jakub Rutkowski",
 	"info_stack": "Software Engineer / Full Stack Developer",
-	"info_description_1": "Z <strong>niemal dekadą</strong> doświadczenia w programowaniu, w tym <strong>trzema latami</strong> pracy komercyjnej, przynoszę bogate doświadczenie i wiedzę do każdego projektu, który podejmuję.",
+	"info_description_1": "Z <strong>dekadą</strong> doświadczenia w programowaniu, w tym <strong>czterema latami</strong> pracy komercyjnej, wnoszę bogate doświadczenie i wiedzę do każdego projektu, który podejmuję.",
 	"info_description_2": "Dzięki mojemu doświadczeniu w tworzeniu oprogramowania, mam głębokie zrozumienie różnych technologii oraz udokumentowany sukces w dostarczaniu <strong>rozwiązań wysokiej jakości</strong>.",
 
 	/* About Me Section */
